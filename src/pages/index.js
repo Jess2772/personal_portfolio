@@ -1,6 +1,6 @@
 import * as React from "react"
 //import { Link } from "gatsby"
-import resume from '/Users/jesseli/Desktop/jesse-portfolio/src/images/Jesse_Resume_2022.pdf'
+import resume from '../images/Jesse_Resume_2022.pdf'
 import FadeIn from 'react-fade-in';
 
 import Layout from "../components/layout"

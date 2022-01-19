@@ -65,3 +65,20 @@ h2 {
   font-size: 50px;
   color: #747fe0
 }
+
+
+h4 {
+  font-family: 'Monaco', 'Courier New';
+  font-size: 20px;
+  color: black;
+}
+
+.fade-in-hello {
+  animatino: fade 0.9s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}

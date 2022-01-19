@@ -28,7 +28,7 @@ function Status() {
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Jesse's Portfolio" />
 	<FadeIn>
 		<h2>{greeting}</h2>
 	</FadeIn>

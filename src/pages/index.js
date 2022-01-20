@@ -99,8 +99,10 @@ const IndexPage = () => (
 		</div>
 	</FadeIn>
 
-
-	<Experience/>
+	<FadeIn delay="450">
+		<Experience/>
+	</FadeIn>
+	
 
   </Layout>
 )

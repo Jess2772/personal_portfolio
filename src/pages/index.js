@@ -1,6 +1,8 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import resume from '../images/Jesse_Resume_2022.pdf'
+import rbcLogo from '../images/rbc.png'
+import smsLogo from '../images/sms.png'
 import FadeIn from 'react-fade-in';
 
 import Layout from "../components/layout"
@@ -10,30 +12,68 @@ const greeting = "Hello, I'm Jesse Li";
 const arrow = ">";
 const location = "Toronto, CA";
 const education = "University of Waterloo";
-const major = "Computer Science";
+const major = "BCS Candidate, Honours Computer Science Co-op";
 const graduation = "April 2025";
-const interests = "[\"Hockey\", \"Code\", \"Valorant\", \"Biking\"]";
+const interests = "[\"Hockey\", \"Coding\", \"Valorant\", \"Biking\"]";
+
 
 
 function Status() {
-	const status = "I am currently on my second co-op term at the Royal Bank of Canada as a Cloud Software Developer (January - August 2022)."
-	const studyTerm = "My most recently completed study term is 2A."
+	const aboutMe = "I am a curious and avid learner with a passion for creating unique products/experiences!"
+	const currentStatus =  "I am currently working at the Royal Bank of Canada as a Cloud Software Developer (Jan. - Apr. 2022), however I am actively seeking internships for the Sept. - Dec. 2022 term."
+	const learnMore = "Below, you will be able to learn more about me, as well as how to get in contact. Hope you hear from you!"
 	return (
 		<div>
-			<h4> {status} </h4>
-			<h4> {studyTerm} </h4>
+			<p class="regular-text"> {aboutMe} <br/> <br/> {currentStatus} <br/> <br/> {learnMore}</p>
 		</div>
 	)
+}
+
+function Experience() {
+	return (
+		<div>
+			<h3>Work Experience</h3>
+			<p class="experience-text">
+				<a target="_blank" href="https://www.rbc.com/about-rbc.html"><img class="icon-rbc" src={rbcLogo}/></a><b>Royal Bank of Canada (RBC)</b>
+				<span class="right"><i>Jan. - Apr. 2022</i></span><br/>
+				<b>Cloud Software Developer</b>
+				<span class="right"><i>Toronto, ON</i></span><br/><br/>
+			</p>
+
+			<p class="experience-text">
+				<a target="_blank" href="https://www.rbc.com/about-rbc.html"><img class="icon-rbc" src={rbcLogo}/></a><b>Royal Bank of Canada (RBC)</b>
+				<span class="right"><i>May - Aug. 2021</i></span><br/>
+				<b>Cloud Software Developer</b>
+				<span class="right"><i>Toronto, ON</i></span><br/><br/>
+			</p>
+
+
+			<p class="experience-text">
+				<a target="_blank" href="https://spiritofmath.com/"><img class="icon-sms" src={smsLogo}/></a><b>Spirit of Math Schools</b>
+				<span class="right"><i>Sept. 2017 - Oct. 2019</i></span><br/>
+				<b>Teaching Assistant</b>
+				<span class="right"><i>Toronto, ON</i></span><br/><br/>
+			</p>
+
+		</div>
+
+
+	)
+
 }
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Jesse's Portfolio" />
 	<FadeIn>
-		<h2>{greeting}</h2>
+		<h2>{arrow} {greeting}</h2>
 	</FadeIn>
 
 	<FadeIn delay="150">
+		<Status/>
+	</FadeIn>
+
+	<FadeIn delay="300">
 		<div id="about">
 				<div id="code">
 					<div id="console">
@@ -59,9 +99,8 @@ const IndexPage = () => (
 		</div>
 	</FadeIn>
 
-	<FadeIn delay="300">
-		<Status/>
-	</FadeIn>
+
+	<Experience/>
 
   </Layout>
 )

@@ -1,6 +1,6 @@
 import * as React from "react"
 //import { Link } from "gatsby"
-import resume from '../images/Jesse_Resume_2022.pdf'
+import resume from '../images/JesseLiResume.pdf'
 import rbcLogo from '../images/rbc.png'
 import smsLogo from '../images/sms.png'
 import FadeIn from 'react-fade-in';
@@ -20,7 +20,7 @@ const interests = "[\"Hockey\", \"Coding\", \"Valorant\", \"Biking\"]";
 
 function Status() {
 	const aboutMe = "I am a curious and avid learner with a passion for creating unique products/experiences!"
-	const currentStatus =  "I am currently working at the Royal Bank of Canada as a Cloud Software Developer (Jan. - Apr. 2022), however I am actively seeking internships for the Sept. - Dec. 2022 term."
+	const currentStatus =  "I previously worked at the Royal Bank of Canada as a Cloud Software Developer (Jan. - Apr. 2022). Currently, I am actively seeking internships for the Sept. - Dec. 2022 term."
 	const learnMore = "Below, you will be able to learn more about me, as well as how to get in contact. Hope you hear from you!"
 	return (
 		<div>

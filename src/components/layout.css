@@ -1,0 +1,134 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em georgia, serif, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: Monterra;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  background-color: #f6f9fc;
+}
+
+#console {
+  width: 90%%;
+  padding: 40px;
+  height: 500px;
+  margin: 0 auto;
+  background: #525f7f;
+}
+  
+#code {
+  /* margin-top: 150px; */
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 30px;
+  background: #ccc;
+  height: 580px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0 50px 100px rgb(50 50 93 / 15%), 0 15px 35px rgb(50 50 93 / 20%), 0 5px 15px rgb(0 0 0 / 12%);
+}
+
+.answer {
+  color: #f0bf4c;
+}
+
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #b3ff66;
+  transition: .1s ease-in-out;
+}
+
+h2 {
+  font-family: 'Monaco', 'Courier New';
+  font-size: 50px;
+  color: #747fe0
+}
+
+h3 {
+  font-family: 'Monaco', 'Courier New';
+  font-size: 30px;
+  color: #747fe0;
+  text-align: center;
+}
+
+
+.regular-text {
+  font-family: 'Monaco', 'Courier New';
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 40px;
+  color: #525f7f;
+  margin: 80px 0;
+}
+
+
+.experience-text {
+  font-family: 'Monaco', 'Courier New';
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #525f7f;
+  margin: 40px 0;
+}
+
+.fade-in-hello {
+  animation: fade 0.9s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}
+
+.right {
+  float: right;
+}
+
+.icon-cowbell {
+  width: 95px;
+  height: 95px;
+  float: left;
+  margin-left: -118px;
+  margin-top: -20px;
+  opacity: 0.8;
+}
+
+.icon-rbc {
+  width: 150px;
+  height: 75px;
+  float: left;
+  margin-left: -145px;
+  margin-top: -10px;
+  opacity: 0.8;
+}
+
+.icon-sms {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-left: -100px;
+  margin-top: -5px;
+  opacity: 0.8;
+}

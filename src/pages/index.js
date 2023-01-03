@@ -1,6 +1,6 @@
 import * as React from "react"
 //import { Link } from "gatsby"
-import resume from '../images/JesseLiResume.pdf'
+import resume from '../images/JesseLiResumeS23.pdf'
 import cowbellLogo from '../images/cowbellLogo.png'
 import rbcLogo from '../images/rbc.png'
 import smsLogo from '../images/sms.png'

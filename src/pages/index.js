@@ -22,7 +22,7 @@ const interests = "[\"Hockey\", \"Coding\", \"Nature\", \"Reading\"]";
 
 function Status() {
 	const aboutMe = "I am a curious and avid learner with a passion for creating unique products/experiences!"
-	const currentStatus =  "I am currently in my 3A term studying Computer Science at the Universify of Waterloo, seeking Summer 2023 opportunities."
+	const currentStatus =  "I am currently in my 3A term studying Computer Science at the Universify of Waterloo, seeking Fall 2023 opportunities."
 	const learnMore = "Below, you will be able to learn more about me, as well as how to get in contact. Hope you hear from you!"
 	return (
 		<div>

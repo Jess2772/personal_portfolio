@@ -1,6 +1,7 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import resume from '../images/JesseLiResumeS23.pdf'
+import scotiaLogo from '../images/scotiabank.png'
 import cowbellLogo from '../images/cowbellLogo.png'
 import rbcLogo from '../images/rbc.png'
 import smsLogo from '../images/sms.png'
@@ -34,6 +35,13 @@ function Experience() {
 	return (
 		<div>
 			<h3>Work Experience</h3>
+			<p class="experience-text">
+				<a target="_blank" href="https://www.scotiabank.com/ca/en/personal.html"><img class="icon-scotiabank" src={scotiaLogo}/></a><b>Scotiabank</b>
+				<span class="right"><i>Mar 2022. - Present</i></span><br/>
+				<b>Data Engineer</b>
+				<span class="right"><i>Toronto, ON</i></span><br/><br/>
+			</p>
+
 			<p class="experience-text">
 				<a target="_blank" href="https://cowbell.insure/"><img class="icon-cowbell" src={cowbellLogo}/></a><b>Cowbell Cyber</b>
 				<span class="right"><i>Sept. - Dec. 2022</i></span><br/>

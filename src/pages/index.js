@@ -33,11 +33,11 @@ function Status() {
 
 function Experience() {
 	return (
-		<div>
+		<div class="work">
 			<h3>Work Experience</h3>
 			<p class="experience-text">
 				<a target="_blank" href="https://www.scotiabank.com/ca/en/personal.html"><img class="icon-scotiabank" src={scotiaLogo}/></a><b>Scotiabank</b>
-				<span class="right"><i>Mar 2022. - Present</i></span><br/>
+				<span class="right"><i>Mar 2023. - Present</i></span><br/>
 				<b>Data Engineer</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>

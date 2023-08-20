@@ -22,7 +22,7 @@ const interests = "[\"Hockey\", \"Coding\", \"Nature\", \"Reading\"]";
 
 function Status() {
 	const aboutMe = "I am a curious and avid learner with a passion for creating unique products/experiences!"
-	const currentStatus =  "I am currently in my 3A term studying Computer Science at the Universify of Waterloo, seeking Fall 2023 opportunities."
+	const currentStatus =  "I am currently in my 3B term studying Computer Science at the University of Waterloo, seeking Winter/Spring 2024 internship opportunities."
 	const learnMore = "Below, you will be able to learn more about me, as well as how to get in contact. Hope you hear from you!"
 	return (
 		<div>
@@ -37,28 +37,28 @@ function Experience() {
 			<h3>Work Experience</h3>
 			<p class="experience-text">
 				<a target="_blank" href="https://www.scotiabank.com/ca/en/personal.html"><img class="icon-scotiabank" src={scotiaLogo}/></a><b>Scotiabank</b>
-				<span class="right"><i>Mar 2023. - Present</i></span><br/>
+				<span class="right"><i>Mar 2023 - Aug 2023</i></span><br/>
 				<b>Data Engineer</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>
 
 			<p class="experience-text">
 				<a target="_blank" href="https://cowbell.insure/"><img class="icon-cowbell" src={cowbellLogo}/></a><b>Cowbell Cyber</b>
-				<span class="right"><i>Sept. - Dec. 2022</i></span><br/>
+				<span class="right"><i>Sep 2022 - Dec 2022</i></span><br/>
 				<b>Backend Software Engineer</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>
 
 			<p class="experience-text">
 				<a target="_blank" href="https://www.rbc.com/about-rbc.html"><img class="icon-rbc" src={rbcLogo}/></a><b>Royal Bank of Canada (RBC)</b>
-				<span class="right"><i>Jan. - Apr. 2022</i></span><br/>
+				<span class="right"><i>Jan 2022 - Apr 2022</i></span><br/>
 				<b>Cloud Software Developer</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>
 
 			<p class="experience-text">
 				<a target="_blank" href="https://www.rbc.com/about-rbc.html"><img class="icon-rbc" src={rbcLogo}/></a><b>Royal Bank of Canada (RBC)</b>
-				<span class="right"><i>May - Aug. 2021</i></span><br/>
+				<span class="right"><i>May 2021 - Aug 2021</i></span><br/>
 				<b>Cloud Software Developer</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>
@@ -66,7 +66,7 @@ function Experience() {
 
 			<p class="experience-text">
 				<a target="_blank" href="https://spiritofmath.com/"><img class="icon-sms" src={smsLogo}/></a><b>Spirit of Math Schools</b>
-				<span class="right"><i>Sept. 2017 - Oct. 2019</i></span><br/>
+				<span class="right"><i>Sep 2017 - Oct 2019</i></span><br/>
 				<b>Teaching Assistant</b>
 				<span class="right"><i>Toronto, ON</i></span><br/><br/>
 			</p>
